@@ -13,7 +13,7 @@ function calculate () {
   numb2 = parseInt(numb2)
 
   for (count = 0; count < numb1; count++) {
-    answer = answer + numb2 
+    answer = answer + numb2
   }
   document.getElementById('answer').innerHTML = answer
 }
